@@ -27,8 +27,6 @@ class MainActivity : AppCompatActivity() {
 
     // Logica do aplicativo
 
-    // Caixa de Texto Teste
-
     // Teste, ao pressionarmos um botão, o conteudo string de um componente de texto será mudado
     fun MudarTexto(view:View){
         val textoTeste = findViewById<TextView>(R.id.txt_Teste)
@@ -37,14 +35,33 @@ class MainActivity : AppCompatActivity() {
 
     // Botão Hospital
     fun Hospital(view: View){
+
+        // Teste
         val textoTeste = findViewById<TextView>(R.id.txt_Teste)
         textoTeste.setText("Vc clicou no botao do hospital!")
 
+        // Pesquisar no navegador o conteudo referente ao botão
         val pesquisa = Uri.parse("https://www.google.com/search?q=hospitais")
         val intent = Intent(Intent.ACTION_VIEW, pesquisa)
         startActivity(intent)
+    }
+
+    // Botão Delegacia da Mulher
+    fun DelegaciaMulher(view: View){
+
+        // Teste
+        val textoTeste = findViewById<TextView>(R.id.txt_Teste)
+        textoTeste.setText("Vc clicou no botao do hospital!")
+
+        // Pesquisar no navegador o conteudo referente ao botão
+        val pesquisa = Uri.parse("https://www.google.com/search?q=delegaciadamulher")
+        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        startActivity(intent)
+
 
     }
+
+
 
 
 }

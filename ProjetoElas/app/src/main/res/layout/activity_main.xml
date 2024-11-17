@@ -56,4 +56,79 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_Teste"
         app:layout_constraintVertical_bias="0.100000024" />
 
+    <Button
+        android:id="@+id/btn_DelegaciaM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="428dp"
+        android:onClick="DelegaciaMulher"
+        android:text="Delegacia da Mulher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_Hospital" />
+
+    <Button
+        android:id="@+id/btn_Bancos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:text="Bancos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Hospital" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Saúde e Bem-Estar"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Segurança e Apoio"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Lazer e Bem-Estar"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Tecnologia e Suporte"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Família e Necessidades Cotidianas"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#711B1B"
+        android:text="Educação e Profissionalização"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="502dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
