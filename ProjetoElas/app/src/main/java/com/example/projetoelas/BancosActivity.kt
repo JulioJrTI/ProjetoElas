@@ -24,6 +24,14 @@ class BancosActivity : AppCompatActivity() {
 
     // Logica de programação referente a pagina do botão "Bancos"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Banco do Brasil"
     fun BB(view: View){
 

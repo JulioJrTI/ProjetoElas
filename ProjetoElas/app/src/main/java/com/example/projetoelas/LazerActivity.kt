@@ -23,6 +23,14 @@ class LazerActivity : AppCompatActivity() {
 
     //Logica de programação da Activity "Lazer e Bem-Estar"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Salões de Beleza/Estética"
     fun Estetica(view: View){
 

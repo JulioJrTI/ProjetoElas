@@ -23,6 +23,14 @@ class SegurancaActivity : AppCompatActivity() {
 
     //Logica de programação da Activity "Segurança e Apoio"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Delegacia Geral"
     fun Delegacia(view: View){
 

@@ -8,6 +8,19 @@
     android:backgroundTint="#3F51B5"
     tools:context=".EducacaoActivity">
 
+    <Button
+        android:id="@+id/btn_Inicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Botao_Inicio"
+        android:text="Inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
     <TextView
         android:id="@+id/txt_Titulo05"
         android:layout_width="wrap_content"

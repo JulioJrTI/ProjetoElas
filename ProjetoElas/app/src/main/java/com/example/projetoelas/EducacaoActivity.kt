@@ -23,6 +23,14 @@ class EducacaoActivity : AppCompatActivity() {
 
     //Logica de programação da Activity "Educação e Profissionalização"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Cursos Profissionalizantes"
     fun Cursos(view: View){
 

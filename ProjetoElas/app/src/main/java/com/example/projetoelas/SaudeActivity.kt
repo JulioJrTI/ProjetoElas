@@ -23,6 +23,14 @@ class SaudeActivity : AppCompatActivity() {
 
     //Logica de programação da Activity "Saúde e Bem-Estar"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Farmacias"
     fun Farmacias(view: View){
 

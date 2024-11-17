@@ -23,6 +23,14 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
 
     //Logica de programação da Activity "Família e Necessidades Cotidianas"
 
+    // Botão "Inicio"
+    fun Botao_Inicio(view: View){
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão "Creches Próximas"
     fun Creches(view: View){
 
