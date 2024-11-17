@@ -44,91 +44,90 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_Teste" />
 
     <Button
-        android:id="@+id/btn_Hospital"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="Hospital"
-        android:text="Hospital"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Teste"
-        app:layout_constraintVertical_bias="0.100000024" />
-
-    <Button
         android:id="@+id/btn_DelegaciaM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="428dp"
+        android:layout_marginBottom="272dp"
         android:onClick="DelegaciaMulher"
         android:text="Delegacia da Mulher"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_Hospital" />
+        tools:layout_editor_absoluteX="435dp" />
 
     <Button
         android:id="@+id/btn_Bancos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="12dp"
-        android:text="Bancos"
+        android:backgroundTint="#FF0000"
+        android:onClick="Bancos"
+        android:text="Bancos (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Hospital" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Teste" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_Saude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Saúde e Bem-Estar"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="385dp" />
+        android:backgroundTint="#FF0000"
+        android:text="Saúde e Bem-Estar (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Bancos" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_Seguranca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Segurança e Apoio"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="445dp" />
+        android:backgroundTint="#FF0000"
+        android:text="Segurança e Apoio (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Saude" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_Lazer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Lazer e Bem-Estar"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="550dp" />
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#FF0000"
+        android:text="Lazer e Bem-Estar (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_Educacao" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btn_TecnologiaSuporte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Tecnologia e Suporte"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="667dp" />
+        android:backgroundTint="#FF0000"
+        android:text="Tecnologia e Suporte (Concept)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Familia"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn_Familia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Família e Necessidades Cotidianas"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="598dp" />
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF0000"
+        android:text="Família e Necessidades Cotidianas (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Lazer" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn_Educacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#711B1B"
-        android:text="Educação e Profissionalização"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="502dp" />
+        android:backgroundTint="#FF0000"
+        android:text="Educação e Profissionalização (Concept)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Seguranca" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
