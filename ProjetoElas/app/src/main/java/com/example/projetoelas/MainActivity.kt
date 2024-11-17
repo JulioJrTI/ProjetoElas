@@ -62,11 +62,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    // Botão Bancos
+    // Botão Categoria Bancos
     fun Bancos(view: View){
         val intent = Intent(this, BancosActivity::class.java)
         startActivity(intent)
-
     }
 
 
