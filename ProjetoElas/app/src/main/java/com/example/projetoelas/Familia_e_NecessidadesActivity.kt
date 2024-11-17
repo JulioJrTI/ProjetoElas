@@ -1,6 +1,9 @@
 package com.example.projetoelas
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,6 +22,36 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
     }
 
     //Logica de programação da Activity "Família e Necessidades Cotidianas"
+
+    // Botão "Creches Próximas"
+    fun Creches(view: View){
+
+        // Pesquisar no navegador o conteudo referente ao botão
+        val pesquisa = Uri.parse("https://www.google.com/search?q=CrechesProximas")
+        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        startActivity(intent)
+
+    }
+
+    // Botão "Supermercados 24h"
+    fun Supermercados(view: View){
+
+        // Pesquisar no navegador o conteudo referente ao botão
+        val pesquisa = Uri.parse("https://www.google.com/search?q=Supermercados24h")
+        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        startActivity(intent)
+
+    }
+
+    // Botão "Costureiras/Consertos de Roupas"
+    fun Costura(view: View){
+
+        // Pesquisar no navegador o conteudo referente ao botão
+        val pesquisa = Uri.parse("https://www.google.com/search?q=CostureirasConsertosdeRoupas")
+        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        startActivity(intent)
+
+    }
 
 
 }
