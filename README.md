@@ -11,7 +11,7 @@
 
 # Stages:
 - [x] Pre-Concept
-- [ ] Concept / Prototype
+- [x] Concept / Prototype
 - [ ] Alpha
 - [ ] Beta
 - [ ] Release
