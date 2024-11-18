@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#3F51B5"
+    android:background="#3E9C35"
+    android:backgroundTint="#3E9C35"
     android:hapticFeedbackEnabled="true"
     tools:context=".BancosActivity">
 
@@ -22,93 +23,104 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
 
-    <TextView
-        android:id="@+id/txt_Titulo02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="PAGINA DO BOTAO BANCOS!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072" />
-
     <Button
         android:id="@+id/btn_BB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="BB"
         android:text="Banco do Brasil"
+        android:textColor="#3E9C35"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136"
+        app:layout_constraintVertical_bias="0.076"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_CEF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="CEF"
         android:text="Caixa Econômica Federal"
+        android:textColor="#3E9C35"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222"
+        app:layout_constraintVertical_bias="0.203"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Bradesco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Bradesco"
         android:text="Bradesco"
+        android:textColor="#3E9C35"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311"
+        app:layout_constraintVertical_bias="0.346"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Unibanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Itau"
         android:text="Itaú Unibanco"
+        android:textColor="#3E9C35"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402"
+        app:layout_constraintVertical_bias="0.48"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Santander"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Santander"
         android:text="Santander"
+        android:textColor="#3E9C35"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625"
         tools:visibility="visible" />
 
     <EditText
@@ -121,9 +133,21 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.785" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="309dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+        app:srcCompat="@drawable/dindin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

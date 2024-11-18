@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#FF5722"
+    android:background="#000000"
+    android:backgroundTint="#FD9BCE"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteX="-8dp"
     tools:layout_editor_absoluteY="109dp"
@@ -15,15 +16,18 @@
         android:id="@+id/btn_Saude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FF6C9C"
+
         android:fontFamily="@font/roboto_medium"
+
         android:onClick="Saude"
-
         android:text="Saúde e Bem-Estar"
-
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
+        app:iconTint="#000000"
+        app:iconTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,12 +39,13 @@
         android:id="@+id/btn_Lazer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Lazer_e_bemEstar"
 
         android:text="Lazer e Bem-Estar"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -54,12 +59,13 @@
         android:id="@+id/btn_TecnologiaSuporte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Tecnologia"
 
         android:text="Tecnologia e Suporte"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -74,12 +80,13 @@
         android:id="@+id/btn_Seguranca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#8BC34A"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Segurança"
 
         android:text="Segurança e Apoio"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -95,12 +102,13 @@
         android:id="@+id/btn_Bancos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#8BC34A"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Bancos"
 
         android:text="Bancos"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -116,12 +124,13 @@
         android:id="@+id/btn_Educacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Educacao"
 
         android:text="Educação e Profissionalização"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
@@ -136,12 +145,13 @@
         android:id="@+id/btn_Familia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FF6C9C"
         android:fontFamily="@font/roboto_medium"
         android:onClick="Familia"
 
         android:text="Família e Necessidades Cotidianas"
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"

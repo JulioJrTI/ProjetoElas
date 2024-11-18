@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#3F51B5"
+    android:background="#1C5FD4"
     tools:context=".SaudeActivity">
 
     <Button
@@ -21,89 +21,116 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
 
-    <TextView
-        android:id="@+id/txt_Titulo03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PAGINA DO BOTAO Saúde e Bem-Estar"
+    <ImageView
+        android:id="@+id/img_Doctor"
+        android:layout_width="218dp"
+        android:layout_height="392dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07" />
+        app:layout_constraintVertical_bias="0.233"
+        app:srcCompat="@drawable/doctor" />
 
     <Button
         android:id="@+id/btn_Farmacias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Farmacias"
         android:text="Farmácias Próximas"
+        android:textColor="#1C5FD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155"
+        app:layout_constraintVertical_bias="0.086"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Gino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Ginecologistas"
         android:text="Ginecologistas"
+        android:textColor="#1C5FD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
+        app:layout_constraintVertical_bias="0.215"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Psico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Psicologos"
         android:text="Apoio Psicológico"
+        android:textColor="#1C5FD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.382"
+        app:layout_constraintVertical_bias="0.563"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_PSVacinas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Postos_De_Saude"
         android:text="Postos de Saúde/Vacinação"
+        android:textColor="#1C5FD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Hospitais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Hospitais"
         android:text="Hospitais"
+        android:textColor="#1C5FD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62"
+        app:layout_constraintVertical_bias="0.39"
         tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
