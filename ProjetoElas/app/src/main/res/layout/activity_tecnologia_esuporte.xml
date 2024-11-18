@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#3F51B5"
+    android:background="#02C0FC"
+    android:backgroundTint="#02C0FC"
     tools:context=".Tecnologia_e_SuporteActivity">
 
     <Button
@@ -21,61 +22,75 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
 
-    <TextView
-        android:id="@+id/txt_Titulo08"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tecnologia e Suporte"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.11" />
-
     <Button
         android:id="@+id/btn_Tecnologia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Mentorias_Mulheres_Tecnologia"
         android:text="Mulheres na Tecnologia"
+        android:textColor="#02C0FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229"
+        app:layout_constraintVertical_bias="0.352"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Conserto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Concerto_Celulares"
         android:text="Consertos de Celulares ou Laptops"
+        android:textColor="#02C0FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338"
+        app:layout_constraintVertical_bias="0.524"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Tutoriais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
         android:onClick="Tutoriais_Para_Mulheres"
         android:text="Tutorias Online para Mulheres"
+        android:textColor="#02C0FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintVertical_bias="0.706"
         tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="169dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088"
+        app:srcCompat="@drawable/phonefix" />
 </androidx.constraintlayout.widget.ConstraintLayout>
