@@ -39,12 +39,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Farmacias"
         android:text="Farmácias Próximas"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.155"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Gino"
@@ -53,11 +55,13 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Ginecologistas"
         android:text="Ginecologistas"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.265"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Psico"
@@ -66,11 +70,13 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Psicologos"
         android:text="Apoio Psicológico"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.382" />
+        app:layout_constraintVertical_bias="0.382"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_PSVacinas"
@@ -79,10 +85,12 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Postos_De_Saude"
         android:text="Postos de Saúde/Vacinação"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Hospitais"
@@ -91,9 +99,11 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Hospitais"
         android:text="Hospitais"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.62"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

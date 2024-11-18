@@ -40,13 +40,13 @@ class MainActivity : AppCompatActivity() {
 
 
         // Executa as animações (Fade-In)
-        animateButton(btnBancos, 1000) // Aparece 1s depois
-        animateButton(btnSaude, 2000) // Aparece 1s depois
-        animateButton(btnSeguranca, 3000) // Aparece 1s depois
-        animateButton(btnLazer, 4000) // Aparece 1s depois
-        animateButton(btnEducacao, 5000) // Aparece 1s depois
-        animateButton(btnFamilia, 6000) // Aparece 1s depois
-        animateButton(btnTecnologia, 7000) // Aparece 1s depois
+        animateButton(btnBancos, 250) // Aparece 1s depois
+        animateButton(btnSaude, 500) // Aparece 1s depois
+        animateButton(btnSeguranca, 750) // Aparece 1s depois
+        animateButton(btnLazer, 1000) // Aparece 1s depois
+        animateButton(btnEducacao, 1250) // Aparece 1s depois
+        animateButton(btnFamilia, 1500) // Aparece 1s depois
+        animateButton(btnTecnologia, 1750) // Aparece 1s depois
 
     }
 

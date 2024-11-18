@@ -41,11 +41,13 @@
         android:backgroundTint="#3F51B5"
         android:onClick="BB"
         android:text="Banco do Brasil"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintVertical_bias="0.136"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_CEF"
@@ -54,12 +56,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="CEF"
         android:text="Caixa Econômica Federal"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.222"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Bradesco"
@@ -68,12 +72,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Bradesco"
         android:text="Bradesco"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311" />
+        app:layout_constraintVertical_bias="0.311"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Unibanco"
@@ -82,12 +88,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Itau"
         android:text="Itaú Unibanco"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.402"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Santander"
@@ -96,10 +104,12 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Santander"
         android:text="Santander"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <EditText
         android:id="@+id/txtF_OutroBanco"

@@ -40,12 +40,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Cursos"
         android:text="Cursos Profissionalizantes"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.147"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_DefesaPessoal"
@@ -54,12 +56,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="DefesaPessoal"
         android:text="Aulas de Defesa Pessoal"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        app:layout_constraintVertical_bias="0.279"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Empregos"
@@ -68,11 +72,13 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Empregos"
         android:text="Empresas com Emprego para Mulheres"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
+        app:layout_constraintVertical_bias="0.398"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_GrupoApoio"
@@ -81,10 +87,12 @@
         android:backgroundTint="#3F51B5"
         android:onClick="GruposApoio"
         android:text="Grupos de Apoio Feminino"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintVertical_bias="0.524"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

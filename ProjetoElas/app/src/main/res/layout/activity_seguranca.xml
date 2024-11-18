@@ -28,12 +28,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Delegacia"
         android:text="Delegacia Geral"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.162"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Advogados"
@@ -42,11 +44,13 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Advogados"
         android:text="Advogados de Família"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.281"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Emergencia"
@@ -55,12 +59,14 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Emergencia"
         android:text="Botão de Emergência"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.392"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_ONG"
@@ -69,10 +75,12 @@
         android:backgroundTint="#3F51B5"
         android:onClick="ONGs"
         android:text="ONGs ou Abrigos"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/txt_Titulo04"

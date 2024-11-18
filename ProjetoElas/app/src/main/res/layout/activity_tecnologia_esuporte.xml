@@ -39,25 +39,29 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Mentorias_Mulheres_Tecnologia"
         android:text="Mulheres na Tecnologia"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.229"
+        tools:visibility="visible" />
 
     <Button
-        android:id="@+id/btn_Concerto"
+        android:id="@+id/btn_Conserto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#3F51B5"
         android:onClick="Concerto_Celulares"
         android:text="Consertos de Celulares ou Laptops"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338" />
+        app:layout_constraintVertical_bias="0.338"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Tutoriais"
@@ -66,10 +70,12 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Tutoriais_Para_Mulheres"
         android:text="Tutorias Online para Mulheres"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.45"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
