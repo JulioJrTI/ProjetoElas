@@ -14,6 +14,7 @@ import android.os.Looper
 
 // Bibliotecas referentes a logica de pesquisa do navegador
 import android.content.Intent
+import android.net.Uri
 
 
 class MainActivity : AppCompatActivity() {
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         val btnTecnologia = findViewById<View>(R.id.btn_TecnologiaSuporte)
         val btnFamilia = findViewById<View>(R.id.btn_Familia)
         val btnEducacao = findViewById<View>(R.id.btn_Educacao)
+        val btnEmergencia = findViewById<View>(R.id.btn_EMERGENCIA)
+        val btnPolicia = findViewById<View>(R.id.btn_POLICIA)
 
 
         // Executa as animações (Fade-In)
@@ -47,6 +50,9 @@ class MainActivity : AppCompatActivity() {
         animateButton(btnEducacao, 1250) // Aparece 1s depois
         animateButton(btnFamilia, 1500) // Aparece 1s depois
         animateButton(btnTecnologia, 1750) // Aparece 1s depois
+
+        animateButton(btnEmergencia, 0) // Aparece 1s depois
+        animateButton(btnPolicia, 0) // Aparece 1s depois
 
     }
 
@@ -120,6 +126,20 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Tecnologia_e_SuporteActivity::class.java)
         startActivity(intent)
 
+    }
+
+    // Botão Emergencia
+    fun Emergencia(view: View) {
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        dialIntent.data = Uri.parse("tel:" + "192")
+        startActivity(dialIntent)
+    }
+
+    // Botão Policia
+    fun Policia(view: View) {
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        dialIntent.data = Uri.parse("tel:" + "190")
+        startActivity(dialIntent)
     }
 
 
