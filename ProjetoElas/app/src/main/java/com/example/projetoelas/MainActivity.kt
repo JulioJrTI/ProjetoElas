@@ -7,6 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+import android.animation.ObjectAnimator
+import android.os.Handler
+import android.os.Looper
+
+
 // Bibliotecas referentes a logica de pesquisa do navegador
 import android.content.Intent
 
@@ -22,6 +27,41 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        // Animações
+        // Referências aos botões
+        val btnBancos = findViewById<View>(R.id.btn_Bancos)
+        val btnSaude = findViewById<View>(R.id.btn_Saude)
+        val btnSeguranca = findViewById<View>(R.id.btn_Seguranca)
+        val btnLazer = findViewById<View>(R.id.btn_Lazer)
+        val btnTecnologia = findViewById<View>(R.id.btn_TecnologiaSuporte)
+        val btnFamilia = findViewById<View>(R.id.btn_Familia)
+        val btnEducacao = findViewById<View>(R.id.btn_Educacao)
+
+
+        // Executa as animações (Fade-In)
+        animateButton(btnBancos, 1000) // Aparece 1s depois
+        animateButton(btnSaude, 2000) // Aparece 1s depois
+        animateButton(btnSeguranca, 3000) // Aparece 1s depois
+        animateButton(btnLazer, 4000) // Aparece 1s depois
+        animateButton(btnEducacao, 5000) // Aparece 1s depois
+        animateButton(btnFamilia, 6000) // Aparece 1s depois
+        animateButton(btnTecnologia, 7000) // Aparece 1s depois
+
+    }
+
+    // Animações
+    private fun animateButton(button: View, delay: Long) {
+        // Define o botão como visível após o delay
+        Handler(Looper.getMainLooper()).postDelayed({
+            button.visibility = View.VISIBLE
+
+            // Animação de "fade-in" usando ObjectAnimator
+            ObjectAnimator.ofFloat(button, "alpha", 0f, 1f).apply {
+                duration = 500 // Duração da animação (500ms)
+                start()
+            }
+        }, delay)
     }
 
     // Logica do aplicativo

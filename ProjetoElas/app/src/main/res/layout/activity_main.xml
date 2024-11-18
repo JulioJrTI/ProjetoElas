@@ -8,7 +8,8 @@
     android:backgroundTint="#FF5722"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteX="-8dp"
-    tools:layout_editor_absoluteY="109dp">
+    tools:layout_editor_absoluteY="109dp"
+    tools:visibility="visible">
 
     <TextView
         android:id="@+id/txt_Titulo"
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Projeto ELAS"
         android:textSize="34sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,12 +31,16 @@
         android:backgroundTint="#8BC34A"
         android:onClick="Bancos"
         android:text="Bancos"
+
+        android:visibility="invisible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.32"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Saude"
@@ -43,12 +49,16 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Saude"
         android:text="Saúde e Bem-Estar"
+
+        android:visibility="invisible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.32"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Seguranca"
@@ -57,12 +67,16 @@
         android:backgroundTint="#8BC34A"
         android:onClick="Segurança"
         android:text="Segurança e Apoio"
+
+        android:visibility="invisible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.41000003"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Lazer"
@@ -71,39 +85,16 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Lazer_e_bemEstar"
         android:text="Lazer e Bem-Estar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.882"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
 
-    <Button
-        android:id="@+id/btn_TecnologiaSuporte"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
-        android:onClick="Tecnologia"
-        android:text="Tecnologia e Suporte"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682" />
+        android:visibility="invisible"
 
-    <Button
-        android:id="@+id/btn_Familia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
-        android:onClick="Familia"
-        android:text="Família e Necessidades Cotidianas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.41000003"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/btn_Educacao"
@@ -112,11 +103,48 @@
         android:backgroundTint="#3F51B5"
         android:onClick="Educacao"
         android:text="Educação e Profissionalização"
+
+        android:visibility="invisible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483" />
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_Familia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:onClick="Familia"
+        android:text="Família e Necessidades Cotidianas"
+
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_TecnologiaSuporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:onClick="Tecnologia"
+        android:text="Tecnologia e Suporte"
+
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button"
@@ -124,6 +152,9 @@
         android:layout_height="wrap_content"
         android:onClick="Teste_Browser"
         android:text="Teste Browser"
+
+        android:visibility="visible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
