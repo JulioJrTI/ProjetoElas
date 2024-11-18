@@ -7,7 +7,7 @@
 - [ ] Otimizar o codigo
 - [ ] Animações e Icones
 - [ ] Implementação de Acessibilidade
-- [ ] Navegador imbutido dentro do App
+- [x] Navegador imbutido dentro do App
 
 # Stages:
 - [x] Pre-Concept
