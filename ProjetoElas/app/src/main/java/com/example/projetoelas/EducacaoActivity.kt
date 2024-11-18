@@ -34,9 +34,9 @@ class EducacaoActivity : AppCompatActivity() {
     // Botão "Cursos Profissionalizantes"
     fun Cursos(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=CursosProfissionalizantes")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=CursosProfissionalizantes")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class EducacaoActivity : AppCompatActivity() {
     // Botão "Aulas de Defesa Pessoal"
     fun DefesaPessoal(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=AulasdeDefesaPessoal")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=AulasdeDefesaPessoal")
         startActivity(intent)
 
     }
@@ -54,9 +54,9 @@ class EducacaoActivity : AppCompatActivity() {
     // Botão "Empresas com Emprego para Mulheres"
     fun Empregos(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=EmpresascomEmpregoparaMulheres")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=EmpresascomEmpregoparaMulheres")
         startActivity(intent)
 
     }
@@ -64,9 +64,9 @@ class EducacaoActivity : AppCompatActivity() {
     // Botão "Grupos de Apoio Feminino"
     fun GruposApoio(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=GruposdeApoioFeminino")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=GruposdeApoioFeminino")
         startActivity(intent)
 
     }

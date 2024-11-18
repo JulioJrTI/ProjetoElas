@@ -26,6 +26,14 @@ class MainActivity : AppCompatActivity() {
 
     // Logica do aplicativo
 
+    // Botão TESTE Browser
+    fun Teste_Browser(view: View){
+
+        val intent = Intent(this, BrowserActivity::class.java)
+        startActivity(intent)
+
+    }
+
     // Botão Categoria Bancos
     fun Bancos(view: View){
 

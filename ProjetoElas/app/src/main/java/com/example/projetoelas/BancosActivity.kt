@@ -35,9 +35,9 @@ class BancosActivity : AppCompatActivity() {
     // Botão "Banco do Brasil"
     fun BB(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=bancodobrasil")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=bancodobrasil")
         startActivity(intent)
 
     }
@@ -45,9 +45,9 @@ class BancosActivity : AppCompatActivity() {
     // Botão "Caixa Economica Federal"
     fun CEF(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=caixaeconomicafederal")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=caixaeconomicafederal")
         startActivity(intent)
 
     }
@@ -55,9 +55,9 @@ class BancosActivity : AppCompatActivity() {
     // Botão "Bradesco"
     fun Bradesco(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=bradesco")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=bradesco")
         startActivity(intent)
 
     }
@@ -65,9 +65,9 @@ class BancosActivity : AppCompatActivity() {
     // Botão "Itau"
     fun Itau(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=itau")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=itau")
         startActivity(intent)
 
     }
@@ -75,9 +75,9 @@ class BancosActivity : AppCompatActivity() {
     // Botão "Santander"
     fun Santander(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=santander")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=santander")
         startActivity(intent)
 
     }

@@ -34,9 +34,9 @@ class SaudeActivity : AppCompatActivity() {
     // Botão "Farmacias"
     fun Farmacias(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=farmacias")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=farmacias")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class SaudeActivity : AppCompatActivity() {
     // Botão "Ginecologistas"
     fun Ginecologistas(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Ginecologistas")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Ginecologistas")
         startActivity(intent)
 
     }
@@ -54,9 +54,9 @@ class SaudeActivity : AppCompatActivity() {
     // Botão "Psicologos"
     fun Psicologos(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Psicologos")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Psicologos")
         startActivity(intent)
 
     }
@@ -64,9 +64,9 @@ class SaudeActivity : AppCompatActivity() {
     // Botão "Postos de Saude/Vacinação"
     fun Postos_De_Saude(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=PostosDeSaude")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=PostosDeSaude")
         startActivity(intent)
 
     }
@@ -74,13 +74,11 @@ class SaudeActivity : AppCompatActivity() {
     // Botão "Hospitais"
     fun Hospitais(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Hospitais")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Hospitais")
         startActivity(intent)
 
     }
-
-
 
 }

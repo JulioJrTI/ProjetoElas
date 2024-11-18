@@ -34,9 +34,9 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
     // Botão "Creches Próximas"
     fun Creches(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=CrechesProximas")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=CrechesProximas")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
     // Botão "Supermercados 24h"
     fun Supermercados(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Supermercados24h")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Supermercados24h")
         startActivity(intent)
 
     }
@@ -54,12 +54,11 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
     // Botão "Costureiras/Consertos de Roupas"
     fun Costura(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=CostureirasConsertosdeRoupas")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=CostureirasConsertosdeRoupas")
         startActivity(intent)
 
     }
-
 
 }

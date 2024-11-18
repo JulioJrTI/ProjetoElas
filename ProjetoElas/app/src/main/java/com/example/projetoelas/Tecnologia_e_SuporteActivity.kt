@@ -34,9 +34,9 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
     // Botão "Mulheres na Tecnologia"
     fun Mentorias_Mulheres_Tecnologia(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Mulheres na Tecnologia")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=MulheresnaTecnologia")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
     // Botão "Consertos de Celulares ou Laptops"
     fun Concerto_Celulares(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=ConsertosdeCelularesouLaptops")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=ConsertosdeCelularesouLaptops")
         startActivity(intent)
 
     }
@@ -54,14 +54,11 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
     // Botão "Tutorias Online para Mulheres"
     fun Tutoriais_Para_Mulheres(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=TutoriasOnlineparaMulheres")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=TutoriasOnlineparaMulheres")
         startActivity(intent)
 
     }
-
-
-
 
 }

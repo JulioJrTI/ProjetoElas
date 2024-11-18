@@ -34,9 +34,9 @@ class SegurancaActivity : AppCompatActivity() {
     // Botão "Delegacia Geral"
     fun Delegacia(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Delegacia")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Delegacia")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class SegurancaActivity : AppCompatActivity() {
     // Botão "Advogados da Familia"
     fun Advogados(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=AdvogadosDaFamilia")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=AdvogadosDaFamilia")
         startActivity(intent)
 
     }
@@ -54,9 +54,9 @@ class SegurancaActivity : AppCompatActivity() {
     // Botão "Emergencia" LOGICA SERÁ DIFERENCIADA PARA ESTE BOTÃO!
     fun Emergencia(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Emergencia")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Emergencia")
         startActivity(intent)
 
     }
@@ -64,12 +64,11 @@ class SegurancaActivity : AppCompatActivity() {
     // Botão "ONGs e Abrigos"
     fun ONGs(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=ONGsEAbrigos")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=ONGsEAbrigos")
         startActivity(intent)
 
     }
-
 
 }

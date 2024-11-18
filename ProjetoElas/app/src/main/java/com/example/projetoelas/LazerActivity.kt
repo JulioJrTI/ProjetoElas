@@ -34,9 +34,9 @@ class LazerActivity : AppCompatActivity() {
     // Botão "Salões de Beleza/Estética"
     fun Estetica(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=SaloesdeBelezaEstetica")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=SaloesdeBelezaEstetica")
         startActivity(intent)
 
     }
@@ -44,9 +44,9 @@ class LazerActivity : AppCompatActivity() {
     // Botão "Yoga ou Academias Femininas"
     fun Academia(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=YogaouAcademiasFemininas")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=YogaouAcademiasFemininas")
         startActivity(intent)
 
     }
@@ -54,9 +54,9 @@ class LazerActivity : AppCompatActivity() {
     // Botão "Cafés para Trabalhar/Estudar"
     fun CyberCoffee(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=CafesparaTrabalharEstudar")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=CafesparaTrabalharEstudar")
         startActivity(intent)
 
     }
@@ -64,9 +64,9 @@ class LazerActivity : AppCompatActivity() {
     // Botão "Parques e Áreas Seguras"
     fun Parques(view: View){
 
-        // Pesquisar no navegador o conteudo referente ao botão
-        val pesquisa = Uri.parse("https://www.google.com/search?q=Parqueseareasseguras")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
+        // Abre o navegador interno e pesquisa pelo resultado
+        val intent = Intent(this, BrowserActivity::class.java)
+        intent.putExtra("url", "https://www.google.com/search?q=Parqueseareasseguras")
         startActivity(intent)
 
     }
