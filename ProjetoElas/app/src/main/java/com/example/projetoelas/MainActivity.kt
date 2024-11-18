@@ -66,16 +66,8 @@ class MainActivity : AppCompatActivity() {
 
     // Logica do aplicativo
 
-    // Botão TESTE Browser
-    fun Teste_Browser(view: View){
-
-        val intent = Intent(this, BrowserActivity::class.java)
-        startActivity(intent)
-
-    }
-
     // Botão Categoria Bancos
-    fun Bancos(view: View){
+    fun Bancos(view: View) {
 
         val intent = Intent(this, BancosActivity::class.java)
         startActivity(intent)
@@ -83,7 +75,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Saude e Bem Estar
-    fun Saude(view: View){
+    fun Saude(view: View) {
 
         val intent = Intent(this, SaudeActivity::class.java)
         startActivity(intent)
@@ -91,7 +83,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Segurança e Apoio
-    fun Segurança(view: View){
+    fun Segurança(view: View) {
 
         val intent = Intent(this, SegurancaActivity::class.java)
         startActivity(intent)
@@ -99,7 +91,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Educação e Empoderamento
-    fun Educacao(view: View){
+    fun Educacao(view: View) {
 
         val intent = Intent(this, EducacaoActivity::class.java)
         startActivity(intent)
@@ -107,7 +99,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Lazer e Bem-Estar
-    fun Lazer_e_bemEstar(view: View){
+    fun Lazer_e_bemEstar(view: View) {
 
         val intent = Intent(this, LazerActivity::class.java)
         startActivity(intent)
@@ -115,7 +107,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Família e Necessidades Cotidianas
-    fun Familia(view: View){
+    fun Familia(view: View) {
 
         val intent = Intent(this, Familia_e_NecessidadesActivity::class.java)
         startActivity(intent)
@@ -123,14 +115,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Botão Categoria Tecnologia e Suporte
-    fun Tecnologia(view: View){
+    fun Tecnologia(view: View) {
 
         val intent = Intent(this, Tecnologia_e_SuporteActivity::class.java)
         startActivity(intent)
 
     }
-
-
 
 
 }
