@@ -10,8 +10,8 @@
     <!-- WebView com ID para ser usado no código -->
     <WebView
         android:id="@+id/web_view"
-        android:layout_width="410dp"
-        android:layout_height="730dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
