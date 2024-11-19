@@ -31,9 +31,9 @@ class LazerActivity : AppCompatActivity() {
         val btn_Parques = findViewById<View>(R.id.btn_Parques)
 
         // Executa as animações (Fade-In)
-        animateButton(btn_SaloesBeleza, 250) // Aparece 1s depois
-        animateButton(btn_Academia, 500) // Aparece 1s depois
-        animateButton(btn_CyberCoffee, 750) // Aparece 1s depois
+        animateButton(btn_Academia, 250) // Aparece 1s depois
+        animateButton(btn_CyberCoffee, 500) // Aparece 1s depois
+        animateButton(btn_SaloesBeleza, 750) // Aparece 1s depois
         animateButton(btn_Parques, 1000) // Aparece 1s depois
 
     }

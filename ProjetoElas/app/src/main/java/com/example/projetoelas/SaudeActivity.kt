@@ -35,9 +35,9 @@ class SaudeActivity : AppCompatActivity() {
         // Executa as animações (Fade-In)
         animateButton(btn_Farmacias, 250) // Aparece 1s depois
         animateButton(btn_Ginecologistas, 500) // Aparece 1s depois
-        animateButton(btn_Psicologos, 750) // Aparece 1s depois
-        animateButton(btn_PostosSaude, 1000) // Aparece 1s depois
-        animateButton(btn_Hospitais, 1250) // Aparece 1s depois
+        animateButton(btn_Hospitais, 1000) // Aparece 1s depois
+        animateButton(btn_Psicologos, 1250) // Aparece 1s depois
+        animateButton(btn_PostosSaude, 1500) // Aparece 1s depois
 
     }
 

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
+import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -119,16 +120,26 @@ class BancosActivity : AppCompatActivity() {
     }
 
     //Caixa de Texto "Outro Banco"
+    // Função chamada pelo botão "Pesquisar"
+    fun pesquisarBanco(view: View) {
+        // Obtém o texto digitado no EditText
+        val editTextBanco = findViewById<EditText>(R.id.txtF_OutroBanco)
+        val bancoPesquisado = editTextBanco.text.toString()
 
-    // TEST! FIX THIS!
-    fun OutroBanco(view: View) {
+        // Valida se o usuário digitou algo
+        if (bancoPesquisado.isNotEmpty()) {
+            // Cria uma URL de busca no Google com o nome do banco
+            val url = "https://www.google.com/search?q=$bancoPesquisado"
 
-        val outroBanco = findViewById<TextView>(R.id.txtF_OutroBanco)
+            // Abre o navegador interno e pesquisa pelo resultado
+            val intent = Intent(this, BrowserActivity::class.java)
+            intent.putExtra("url", url)
+            startActivity(intent)
 
-        val pesquisa = Uri.parse("https://www.google.com/search?q=$outroBanco")
-        val intent = Intent(Intent.ACTION_VIEW, pesquisa)
-        startActivity(intent)
-
+        } else {
+            // Mostra uma mensagem se o campo estiver vazio
+            editTextBanco.error = "Por favor, digite o nome de um banco"
+        }
     }
 
 

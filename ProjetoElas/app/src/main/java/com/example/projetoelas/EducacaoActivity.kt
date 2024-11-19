@@ -31,10 +31,10 @@ class EducacaoActivity : AppCompatActivity() {
         val btn_Apoio = findViewById<View>(R.id.btn_GrupoApoio)
 
         // Executa as animações (Fade-In)
-        animateButton(btn_Cursos, 250) // Aparece 1s depois
+        animateButton(btn_Apoio, 250) // Aparece 1s depois
         animateButton(btn_Defesa, 500) // Aparece 1s depois
-        animateButton(btn_Empregos, 750) // Aparece 1s depois
-        animateButton(btn_Apoio, 1000) // Aparece 1s depois
+        animateButton(btn_Cursos, 750) // Aparece 1s depois
+        animateButton(btn_Empregos, 1000) // Aparece 1s depois
 
     }
 

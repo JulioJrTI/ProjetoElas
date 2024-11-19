@@ -11,11 +11,9 @@ import android.animation.ObjectAnimator
 import android.os.Handler
 import android.os.Looper
 
-
 // Bibliotecas referentes a logica de pesquisa do navegador
 import android.content.Intent
 import android.net.Uri
-
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Animações
-        // Referências aos botões
+        // Referências aos botões para com as animações
         val btnBancos = findViewById<View>(R.id.btn_Bancos)
         val btnSaude = findViewById<View>(R.id.btn_Saude)
         val btnSeguranca = findViewById<View>(R.id.btn_Seguranca)
@@ -43,20 +41,19 @@ class MainActivity : AppCompatActivity() {
 
 
         // Executa as animações (Fade-In)
-        animateButton(btnBancos, 250) // Aparece 1s depois
         animateButton(btnSaude, 500) // Aparece 1s depois
         animateButton(btnSeguranca, 750) // Aparece 1s depois
-        animateButton(btnLazer, 1000) // Aparece 1s depois
-        animateButton(btnEducacao, 1250) // Aparece 1s depois
-        animateButton(btnFamilia, 1500) // Aparece 1s depois
-        animateButton(btnTecnologia, 1750) // Aparece 1s depois
-
+        animateButton(btnBancos, 1000) // Aparece 1s depois
+        animateButton(btnLazer, 1250) // Aparece 1s depois
+        animateButton(btnEducacao, 1500) // Aparece 1s depois
+        animateButton(btnFamilia, 1750) // Aparece 1s depois
+        animateButton(btnTecnologia, 2000) // Aparece 1s depois
         animateButton(btnEmergencia, 0) // Aparece 1s depois
         animateButton(btnPolicia, 0) // Aparece 1s depois
 
     }
 
-    // Animações
+    // Logica da animação
     private fun animateButton(button: View, delay: Long) {
         // Define o botão como visível após o delay
         Handler(Looper.getMainLooper()).postDelayed({
@@ -141,6 +138,5 @@ class MainActivity : AppCompatActivity() {
         dialIntent.data = Uri.parse("tel:" + "190")
         startActivity(dialIntent)
     }
-
 
 }
