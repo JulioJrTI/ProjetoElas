@@ -4,10 +4,10 @@
 
 - [x] Tratar do Layout
 - [x] Itens dentro de categorias
-- [ ] Otimizar o codigo
+- [x] Otimizar o codigo
 - [x] Animações e Icones
-- [ ] Implementação de Acessibilidade
 - [x] Navegador imbutido dentro do App
+- [ ] Icone do App e Logo inicial personalizado
 
 # Stages:
 - [x] Pre-Concept
