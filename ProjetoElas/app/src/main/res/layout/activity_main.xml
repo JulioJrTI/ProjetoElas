@@ -20,6 +20,7 @@
 
         android:fontFamily="@font/roboto_medium"
 
+        android:hapticFeedbackEnabled="true"
         android:onClick="Saude"
         android:text="Saúde e Bem-Estar"
         android:textColor="#FFFFFF"
