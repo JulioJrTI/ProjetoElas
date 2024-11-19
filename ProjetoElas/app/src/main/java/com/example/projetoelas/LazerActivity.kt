@@ -67,7 +67,7 @@ class LazerActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=SaloesdeBelezaEstetica")
+        intent.putExtra("url", "https://www.google.com/search?q=Saloes+de+Beleza+e+Estetica+proximos")
         startActivity(intent)
 
     }
@@ -77,7 +77,7 @@ class LazerActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=YogaouAcademiasFemininas")
+        intent.putExtra("url", "https://www.google.com/search?q=Yoga+ou+Academias+Femininas+proximos")
         startActivity(intent)
 
     }
@@ -87,7 +87,7 @@ class LazerActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=CafesparaTrabalharEstudar")
+        intent.putExtra("url", "https://www.google.com/search?q=starbucks+proximo+de+mim")
         startActivity(intent)
 
     }
@@ -97,7 +97,7 @@ class LazerActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Parqueseareasseguras")
+        intent.putExtra("url", "https://www.google.com/search?q=parques+proximos+de+mim")
         startActivity(intent)
 
     }

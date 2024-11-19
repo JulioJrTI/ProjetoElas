@@ -70,7 +70,7 @@ class SaudeActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=farmacias")
+        intent.putExtra("url", "https://www.google.com/search?q=Farmacias+proximas")
         startActivity(intent)
 
     }
@@ -80,7 +80,7 @@ class SaudeActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Ginecologistas")
+        intent.putExtra("url", "https://www.google.com/search?q=Ginecologistas+proximos")
         startActivity(intent)
 
     }
@@ -90,7 +90,7 @@ class SaudeActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Psicologos")
+        intent.putExtra("url", "https://www.google.com/search?q=Psicologos+proximos")
         startActivity(intent)
 
     }
@@ -100,7 +100,7 @@ class SaudeActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=PostosDeSaude")
+        intent.putExtra("url", "https://www.google.com/search?q=Postos+de+Saude+proximos")
         startActivity(intent)
 
     }
@@ -110,7 +110,7 @@ class SaudeActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Hospitais")
+        intent.putExtra("url", "https://www.google.com/search?q=Hospitais+proximos")
         startActivity(intent)
 
     }

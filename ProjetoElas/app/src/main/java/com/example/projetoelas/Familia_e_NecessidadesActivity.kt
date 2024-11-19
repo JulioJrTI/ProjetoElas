@@ -66,7 +66,7 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=CrechesProximas")
+        intent.putExtra("url", "https://www.google.com/search?q=Creches+proximas")
         startActivity(intent)
 
     }
@@ -76,7 +76,7 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Supermercados24h")
+        intent.putExtra("url", "https://www.google.com/search?q=Supermercados24h+proximos")
         startActivity(intent)
 
     }
@@ -86,7 +86,7 @@ class Familia_e_NecessidadesActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=CostureirasConsertosdeRoupas")
+        intent.putExtra("url", "https://www.google.com/search?q=Costureiras+e+Consertos+de+Roupas+proximo")
         startActivity(intent)
 
     }

@@ -74,7 +74,7 @@ class BancosActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=bancodobrasil")
+        intent.putExtra("url", "https://www.google.com/search?q=Banco+do+Brasil+proximo")
         startActivity(intent)
 
     }
@@ -84,7 +84,7 @@ class BancosActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=caixaeconomicafederal")
+        intent.putExtra("url", "https://www.google.com/search?q=Caixa+Economica+Federal+proximo")
         startActivity(intent)
 
     }
@@ -94,7 +94,7 @@ class BancosActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=bradesco")
+        intent.putExtra("url", "https://www.google.com/search?q=Bradesco+proximo")
         startActivity(intent)
 
     }
@@ -104,7 +104,7 @@ class BancosActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=itau")
+        intent.putExtra("url", "https://www.google.com/search?q=Itau+proximo")
         startActivity(intent)
 
     }
@@ -114,7 +114,7 @@ class BancosActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=santander")
+        intent.putExtra("url", "https://www.google.com/search?q=Santander+proximo")
         startActivity(intent)
 
     }

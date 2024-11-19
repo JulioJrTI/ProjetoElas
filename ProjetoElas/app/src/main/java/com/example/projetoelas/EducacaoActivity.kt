@@ -67,7 +67,7 @@ class EducacaoActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=CursosProfissionalizantes")
+        intent.putExtra("url", "https://www.google.com/search?q=Cursos+Profissionalizantes+para+Mulheres")
         startActivity(intent)
 
     }
@@ -77,7 +77,7 @@ class EducacaoActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=AulasdeDefesaPessoal")
+        intent.putExtra("url", "https://www.google.com/search?q=Aulasde+Defesa+Pessoal+feminina")
         startActivity(intent)
 
     }
@@ -87,7 +87,7 @@ class EducacaoActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=EmpresascomEmpregoparaMulheres")
+        intent.putExtra("url", "https://www.google.com/search?q=Empresas+com+vagas+inclusivas")
         startActivity(intent)
 
     }
@@ -97,7 +97,7 @@ class EducacaoActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=GruposdeApoioFeminino")
+        intent.putExtra("url", "https://www.google.com/search?q=Grupos+de+Apoio+Feminino")
         startActivity(intent)
 
     }

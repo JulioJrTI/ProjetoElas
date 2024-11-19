@@ -66,10 +66,9 @@ class SegurancaActivity : AppCompatActivity() {
     // Botão "Delegacia Geral"
     fun Delegacia(view: View) {
 
-        // Abre o navegador interno e pesquisa pelo resultado
-        val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Delegacia")
-        startActivity(intent)
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        dialIntent.data = Uri.parse("tel:" + "190")
+        startActivity(dialIntent)
 
     }
 
@@ -78,18 +77,17 @@ class SegurancaActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=AdvogadosDaFamilia")
+        intent.putExtra("url", "https://www.google.com/search?q=Advogados+Da+Familia+proximo")
         startActivity(intent)
 
     }
 
-    // Botão "Emergencia" LOGICA SERÁ DIFERENCIADA PARA ESTE BOTÃO!
+    // Botão "Emergencia"
     fun Emergencia(view: View) {
 
-        // Abre o navegador interno e pesquisa pelo resultado
-        val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=Emergencia")
-        startActivity(intent)
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        dialIntent.data = Uri.parse("tel:" + "192")
+        startActivity(dialIntent)
 
     }
 
@@ -98,7 +96,7 @@ class SegurancaActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=ONGsEAbrigos")
+        intent.putExtra("url", "https://www.google.com/search?q=ongs+e+abrigos+para+mulheres+proximos")
         startActivity(intent)
 
     }

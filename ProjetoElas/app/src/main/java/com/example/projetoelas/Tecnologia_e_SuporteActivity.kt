@@ -65,7 +65,7 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=MulheresnaTecnologia")
+        intent.putExtra("url", "https://www.youtube.com/results?search_query=cursos+de+inform%C3%A1tica+gratuitos+")
         startActivity(intent)
 
     }
@@ -75,7 +75,7 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=ConsertosdeCelularesouLaptops")
+        intent.putExtra("url", "https://www.google.com/search?q=Consertos+de+Celulares+e+Laptops+proximos")
         startActivity(intent)
 
     }
@@ -85,7 +85,7 @@ class Tecnologia_e_SuporteActivity : AppCompatActivity() {
 
         // Abre o navegador interno e pesquisa pelo resultado
         val intent = Intent(this, BrowserActivity::class.java)
-        intent.putExtra("url", "https://www.google.com/search?q=TutoriasOnlineparaMulheres")
+        intent.putExtra("url", "https://www.youtube.com/results?search_query=tutoriais+basicos+para+mulheres")
         startActivity(intent)
 
     }
