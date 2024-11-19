@@ -129,7 +129,7 @@ class BancosActivity : AppCompatActivity() {
         // Valida se o usuário digitou algo
         if (bancoPesquisado.isNotEmpty()) {
             // Cria uma URL de busca no Google com o nome do banco
-            val url = "https://www.google.com/search?q=$bancoPesquisado"
+            val url = "https://www.google.com/search?q=$bancoPesquisado+proximo"
 
             // Abre o navegador interno e pesquisa pelo resultado
             val intent = Intent(this, BrowserActivity::class.java)
