@@ -8,6 +8,7 @@
 - [x] Animações e Icones
 - [x] Navegador imbutido dentro do App
 - [ ] Icone do App e Logo inicial personalizado
+- [ ] Pagina Github personalizado
 
 # Stages:
 - [x] Pre-Concept
